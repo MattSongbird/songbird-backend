@@ -1,0 +1,36 @@
+{
+  "title": "PostGenRequest",
+  "type": "object",
+  "properties": {
+    "platform": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "audience": {
+      "type": "string"
+    },
+    "goal": {
+      "type": "string"
+    },
+    "tone": {
+      "type": "string"
+    },
+    "length": {
+      "type": "string",
+      "enum": [
+        "short",
+        "detailed"
+      ]
+    }
+  },
+  "required": [
+    "platform",
+    "topic",
+    "audience",
+    "goal",
+    "tone",
+    "length"
+  ]
+}

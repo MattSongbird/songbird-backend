@@ -1,0 +1,32 @@
+{
+  "title": "MarketingPlanRequest",
+  "type": "object",
+  "properties": {
+    "product": {
+      "type": "string"
+    },
+    "customer": {
+      "type": "string"
+    },
+    "budget": {
+      "type": "string"
+    },
+    "objective": {
+      "type": "string"
+    },
+    "affiliate": {
+      "type": "boolean"
+    },
+    "tone": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "product",
+    "customer",
+    "budget",
+    "objective",
+    "affiliate",
+    "tone"
+  ]
+}

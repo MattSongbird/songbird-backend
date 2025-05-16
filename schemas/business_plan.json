@@ -1,0 +1,32 @@
+{
+  "title": "BizPlanRequest",
+  "type": "object",
+  "properties": {
+    "idea": {
+      "type": "string"
+    },
+    "market": {
+      "type": "string"
+    },
+    "problem": {
+      "type": "string"
+    },
+    "revenue_model": {
+      "type": "string"
+    },
+    "tone": {
+      "type": "string"
+    },
+    "goal": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "idea",
+    "market",
+    "problem",
+    "revenue_model",
+    "tone",
+    "goal"
+  ]
+}

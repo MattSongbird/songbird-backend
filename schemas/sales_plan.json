@@ -1,0 +1,31 @@
+{
+  "title": "SalesPlanRequest",
+  "type": "object",
+  "properties": {
+    "product": {
+      "type": "string"
+    },
+    "buyer": {
+      "type": "string"
+    },
+    "channels": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "goal": {
+      "type": "string"
+    },
+    "tone": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "product",
+    "buyer",
+    "channels",
+    "goal",
+    "tone"
+  ]
+}

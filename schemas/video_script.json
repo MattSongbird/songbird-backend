@@ -1,0 +1,32 @@
+{
+  "title": "VideoScriptRequest",
+  "type": "object",
+  "properties": {
+    "platform": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "audience": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "tone": {
+      "type": "string"
+    },
+    "style": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "platform",
+    "topic",
+    "audience",
+    "duration",
+    "tone",
+    "style"
+  ]
+}

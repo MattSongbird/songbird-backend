@@ -1,0 +1,36 @@
+{
+  "title": "BlogRequest",
+  "type": "object",
+  "properties": {
+    "topic": {
+      "type": "string"
+    },
+    "audience": {
+      "type": "string"
+    },
+    "goal": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "tone": {
+      "type": "string"
+    },
+    "style": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "topic",
+    "audience",
+    "goal",
+    "platform",
+    "tone",
+    "style"
+  ]
+}

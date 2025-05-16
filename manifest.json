@@ -1,0 +1,11 @@
+{
+  "project": "Songbird Backend",
+  "version": "v1_0",
+  "entrypoints": [
+    "/tools/post-generator",
+    "/tools/business-coach",
+    "/contact"
+  ],
+  "layout": "FastAPI + LangGraph backend",
+  "created": "2025-05-09T15:50:44.707786Z"
+}

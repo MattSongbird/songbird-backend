@@ -1,0 +1,41 @@
+{
+  "title": "CoachRequest",
+  "type": "object",
+  "properties": {
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "passions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "problems": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "biz_type": {
+      "type": "string"
+    },
+    "tone": {
+      "type": "string"
+    },
+    "lifestyle": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "skills",
+    "passions",
+    "problems",
+    "biz_type",
+    "tone",
+    "lifestyle"
+  ]
+}

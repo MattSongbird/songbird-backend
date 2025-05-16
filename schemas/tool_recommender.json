@@ -1,0 +1,31 @@
+{
+  "title": "ToolRecRequest",
+  "type": "object",
+  "properties": {
+    "need": {
+      "type": "string"
+    },
+    "skill_level": {
+      "type": "string"
+    },
+    "price_pref": {
+      "type": "string"
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tone": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "need",
+    "skill_level",
+    "price_pref",
+    "platforms",
+    "tone"
+  ]
+}

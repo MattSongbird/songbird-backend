@@ -1,0 +1,27 @@
+{
+  "title": "IndustryRequest",
+  "type": "object",
+  "properties": {
+    "industry": {
+      "type": "string"
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "position": {
+      "type": "string"
+    },
+    "tone": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "industry",
+    "questions",
+    "position",
+    "tone"
+  ]
+}
