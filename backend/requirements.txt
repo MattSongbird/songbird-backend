@@ -1,4 +1,10 @@
 fastapi
-pydantic
+uvicorn
 langgraph
 openai
+pydantic
+httpx
+python-dotenv
+tqdm
+tenacity
+aiofiles
