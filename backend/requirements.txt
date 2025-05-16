@@ -2,7 +2,8 @@ fastapi
 uvicorn
 langgraph
 langchain
-langchain_community
+langchain-openai
+langchain-community
 openai
 pydantic
 httpx

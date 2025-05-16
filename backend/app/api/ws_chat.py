@@ -2,7 +2,7 @@ from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 
 
 
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 
 
 
