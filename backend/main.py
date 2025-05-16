@@ -28,6 +28,10 @@ app.add_middleware(
 # Mount WebSocket router
 app.include_router(ws_router, prefix="/api")
 
+@app.get("/healthz")
+def health_check():
+    return {"status": "ok"}
+
 @app.on_event("startup")
 async def startup_event():
     logger.info("Application startup complete.")
