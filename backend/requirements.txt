@@ -2,6 +2,7 @@ fastapi
 uvicorn
 langgraph
 langchain
+langchain_community
 openai
 pydantic
 httpx
@@ -9,3 +10,4 @@ python-dotenv
 tqdm
 tenacity
 aiofiles
+
